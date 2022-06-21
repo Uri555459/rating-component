@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon-32x32.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Rating Component</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="rating-component">
+        <div class="rating-component__inner">
+          <div class="rating-component__star">
+            <img src="./images/icon-star.svg" alt="Icon star" />
+          </div>
+          <div class="rating-component__title">How did we do?</div>
+          <div class="rating-component__desc">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </div>
+          <ul class="rating-component__list">
+            <li class="rating-component__item" data-rating="1">1</li>
+            <li class="rating-component__item" data-rating="2">2</li>
+            <li class="rating-component__item" data-rating="3">3</li>
+            <li class="rating-component__item" data-rating="4">4</li>
+            <li class="rating-component__item" data-rating="5">5</li>
+          </ul>
+          <button class="rating-component__button">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

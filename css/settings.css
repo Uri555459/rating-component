@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-grey: hsl(217, 12%, 63%);
+  --color-medium-grey: hsl(216, 12%, 54%);
+  --color-dark-blue: hsl(213, 19%, 18%);
+  --color-very-dark-blue: hsl(216, 12%, 8%);
+
+  /* Colors Primary */
+  --color-orange: hsl(25, 97%, 53%);
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  min-width: 375px;
+  color: var(--color-light-grey);
+}
+
+.wrapper {
+  background-color: var(--color-very-dark-blue);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
